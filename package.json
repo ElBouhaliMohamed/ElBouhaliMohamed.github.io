@@ -1,8 +1,8 @@
 {
-  "name": "universal-resume-template",
-  "version": "3.1.0",
-  "description": "Minimal and formal résumé (CV) website template for print, mobile, and desktop. https://bit.ly/ur_demo",
-  "homepage": "https://github.com/WebPraktikos/universal-resume",
+  "name": "mohamedelbouhali.github.io",
+  "version": "1.0.0",
+  "description": "CV",
+  "homepage": "https://mohamedelbouhali.github.io",
   "repository": {
     "type": "git",
     "url": "https://github.com/WebPraktikos/universal-resume.git"
@@ -10,8 +10,8 @@
   "bugs": {
     "url": "https://github.com/WebPraktikos/universal-resume/issues"
   },
-  "license": "NonCommercial-ShareAlike 1.0 Generic",
-  "author": "WebPraktikos <hi@webpraktikos.com>",
+  "license": "",
+  "author": "Mohamed El Bouhali <mohamed.elbouhali@web.de>",
   "scripts": {
     "serve": "concurrently \"postcss ./tailwind.css -o docs/build.css --watch\"  \"live-server ./docs \"",
     "build": "cross-env NODE_ENV=build postcss ./tailwind.css -o ./docs/build.css"
